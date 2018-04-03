@@ -26,8 +26,6 @@ class codefortxt(object):
 
         self.cur = self.conn.cursor()
 
-
-
     def everytable(self,table):
         # 检查列名
         sql = "desc " + table + ';'
@@ -80,7 +78,6 @@ class codefortxt(object):
             #print(table[0])
             self.everytable(table[0])
         self.conn.close()
-
 
 if __name__ =='__main__':
     print('-------program-start--------')
