@@ -1,2 +1,2 @@
 # mygitproject
-just for myself
+just for happy
