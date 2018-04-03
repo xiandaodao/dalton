@@ -9,6 +9,7 @@ from multiprocessing import Pool
 
 def main():
 	with open('cbg.txt','a+') as cbgtxt:
+		#指针回到开头
 		cbgtxt.seek(0)
 		file = cbgtxt.read()
 		#print(file)
