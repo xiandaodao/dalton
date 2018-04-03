@@ -5,6 +5,7 @@ import json
 import time
 #import traceback 
 import os
+#多进程会导致被网站封
 from multiprocessing import Pool
 
 def main():
